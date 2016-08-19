@@ -1,0 +1,17 @@
+@mixin im-visibility {
+     @each $breakpoint in $breakpoints {
+        $breakpoint-name: nth($breakpoint, 1);
+
+        @include media(#{'>=' + $breakpoint-name}) {
+            .hide\@#{$breakpoint-name} {
+                display: none !important;
+            }
+        }
+
+        @include media(#{'<' + $breakpoint-name}) {
+            .show\@#{$breakpoint-name} {
+                display: none !important;
+            }
+        }
+    }
+}

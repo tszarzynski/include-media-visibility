@@ -1,0 +1,21 @@
+{
+  "title": "include-media-visibility",
+  "name": "include-media-visibility",
+  "version": "0.0.0",
+  "description": "An include-media plugin for showing / hiding elements based on current active breakpoint",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tszarzynski/include-media-visibility.git"
+  },
+  "main": "_include-media-visibility.scss",
+  "author": {
+    "name": "Tomasz Szarzynski",
+    "email": "hello@tmasz.com"
+  },
+  "bugs": {
+    "url": "https://github.com/tszarzynski/include-media-visibility/issues"
+  },
+  "homepage": "https://github.com/tszarzynski/include-media-visibility",
+  "license": "MIT",
+  "devDependencies": {}
+}
