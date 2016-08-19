@@ -17,13 +17,13 @@ $breakpoints: (phone: 480px, tablet: 768px, desktop: 1024px);
 ####Showing:
 Element is **invisible** until 'tablet' breaktpoint is reached.
 ```html
-    <div class="show@tablet"</div>
+    <div class="show@tablet"></div>
 ```
 
 ####Hiding:
 Element is **visible** until 'tablet' breaktpoint is reached.
 ```html
-    <div class="hide@tablet"</div>
+    <div class="hide@tablet"></div>
 ```
 
 
