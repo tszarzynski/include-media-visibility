@@ -1,7 +1,7 @@
 {
   "title": "include-media-visibility",
   "name": "include-media-visibility",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "An include-media plugin for showing / hiding elements based on current active breakpoint",
   "repository": {
     "type": "git",
