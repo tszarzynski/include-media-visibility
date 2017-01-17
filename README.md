@@ -11,6 +11,15 @@ This plugin generates classes for showing/ hiding elements based on current acti
 
 $breakpoints: (phone: 480px, tablet: 768px, desktop: 1024px);
 
+/*
+    Show class name (optional)
+ */
+$im-show-class: 'show' !default;
+/*
+    Hide class name (optional)
+ */
+$im-hide-class: 'hide' !default;
+
 @include im-visibility();
 ```
 

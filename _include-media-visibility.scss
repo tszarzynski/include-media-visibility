@@ -1,15 +1,25 @@
+/*
+    Show class name
+ */
+$im-show-class: 'show' !default;
+/*
+    Hide class name
+ */
+$im-hide-class: 'hide' !default;
+
+
 @mixin im-visibility {
      @each $breakpoint in $breakpoints {
         $breakpoint-name: nth($breakpoint, 1);
 
         @include media(#{'>=' + $breakpoint-name}) {
-            .hide\@#{$breakpoint-name} {
+            .#{$im-hide-class}\@#{$breakpoint-name} {
                 display: none !important;
             }
         }
 
         @include media(#{'<' + $breakpoint-name}) {
-            .show\@#{$breakpoint-name} {
+            .#{$im-show-class}\@#{$breakpoint-name} {
                 display: none !important;
             }
         }
